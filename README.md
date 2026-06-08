@@ -4,9 +4,9 @@ An interactive Python utility to troubleshoot Dell/Alps trackpads on Linux when 
 
 ### 💻 Tested Environment
 ```text
-    .:cccccccccccccccccccccccccc:.        OS: Fedora Linux 44 (KDE Plasma Desktop Edition) x86_64
-  .;ccccccccccccc;.:dddl:.;ccccccc;.      Host: Latitude 5480
-                                          Kernel: Linux 7.0.11-200.fc44.x86_64
+OS: Fedora Linux 44 (KDE Plasma Desktop Edition) x86_64
+Host: Latitude 5480
+Kernel: Linux 7.0.11-200.fc44.x86_64
 ```
 
 ---
