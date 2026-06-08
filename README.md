@@ -9,7 +9,7 @@ Host: Latitude 5480
 Kernel: Linux 7.0.11-200.fc44.x86_64
 ```
 
-## 🐧 Distribution & DE Compatibility
+## 🐧 Distribution Compatibility
 
 Even though it was written for Fedora, the tool is highly portable and runs on other Linux distributions (e.g., Ubuntu, Debian, Arch, openSUSE) as it uses standard kernel interfaces. Compatibility details are described below:
 
