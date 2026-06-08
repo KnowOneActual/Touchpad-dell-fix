@@ -1,6 +1,6 @@
-# Dell Touchpad Troubleshooter & Data Collector
+# Dell Touchpad on Fedora (Linux) Troubleshooter & Data Collector
 
-An interactive Python utility to troubleshoot Dell/Alps trackpads on Linux when they stop responding. This tool is designed to address a common trackpad issue affecting Dell Latitude models on Linux distributions.
+An interactive Python utility to troubleshoot Dell/Alps trackpads on Linux when they stop responding. This tool is designed to address a common trackpad issue affecting Dell Latitude models running Fedora (Linux).
 
 ### 💻 Tested Environment
 ```text
