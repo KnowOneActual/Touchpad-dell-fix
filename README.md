@@ -4,10 +4,22 @@ An interactive Python utility to troubleshoot Dell/Alps trackpads on Linux when 
 
 ### 💻 Tested Environment
 ```text
-OS: Fedora Linux 44 (KDE Plasma Desktop Edition) x86_64
-Host: Latitude 5480
-Kernel: Linux 7.0.11-200.fc44.x86_64
+    .:cccccccccccccccccccccccccc:.        OS: Fedora Linux 44 (KDE Plasma Desktop Edition) x86_64
+  .;ccccccccccccc;.:dddl:.;ccccccc;.      Host: Latitude 5480
+                                          Kernel: Linux 7.0.11-200.fc44.x86_64
 ```
+
+## 🐧 Distribution & DE Compatibility
+
+The tool is highly portable and runs on other Linux distributions (e.g., Ubuntu, Debian, Arch, openSUSE) as it uses standard kernel interfaces. Compatibility details are described below:
+
+| Feature / Component | Compatibility | Notes |
+| :--- | :--- | :--- |
+| **Hardware Detection** | Universal | Reads `/proc/bus/input/devices` (standard kernel path) |
+| **Driver Reloading** | Universal | Uses `rmmod` and `modprobe` kernel utilities (requires `sudo`) |
+| **Hardware Event Test** | Broad | Requires `libinput-utils` / `libinput-tools` |
+| **Log Analysis** | Systemd-only | Relies on `journalctl` (standard on Fedora, Ubuntu, Debian, Arch) |
+| **Desktop Settings Check**| KDE Plasma | Checks KDE `kcminputrc` & KWin DBus. Gracefully skipped on GNOME/XFCE |
 
 ---
 
